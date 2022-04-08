@@ -1,0 +1,72 @@
+.comunity {
+  text-align: center;
+  background: #d6d6d6;
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container p {
+  text-align: left;
+}
+
+.socials {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.socials .social_img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social_img span {
+  width: 50px !important;
+  height: 50px !important;
+  margin: 10px 0 !important;
+  position: relative !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 989px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 767px;
+  }
+
+  .socials {
+    grid-template-columns: auto auto;
+  }
+
+  .card_3 {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 0 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .socials {
+    grid-template-columns: auto;
+  }
+
+  .socials div {
+    margin: 10px 0;
+  }
+}

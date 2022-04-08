@@ -1,0 +1,21 @@
+.container {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.label {
+  margin-bottom: 4px;
+  font-weight: normal;
+  color: rgb(59, 58, 58);
+}
+
+.select {
+  background-color: rgb(235, 225, 225);
+  border: none;
+  padding: 10px;
+  width: 100%;
+  color: rgb(126, 121, 121);
+}
+.select:focus {
+  outline: none;
+}

@@ -1,0 +1,42 @@
+.rarity_section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 30px;
+}
+.rarity_score {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.rarity_container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.rariry_img_box {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  background-color: gray;
+}
+.rarity_img {
+  position: relative;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.rarity_img span {
+  width: 100% !important;
+  height: 100% !important;
+}
+.rarity_img_title {
+  font-size: 10px;
+  font-weight: bold;
+}

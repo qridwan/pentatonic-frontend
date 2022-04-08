@@ -1,0 +1,24 @@
+.mint {
+  background-image: url("../../../assets/mint.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  padding: 100px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mint button {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}

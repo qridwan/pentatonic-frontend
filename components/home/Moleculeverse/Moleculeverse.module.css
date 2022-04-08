@@ -1,0 +1,162 @@
+.moleculeverse {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.moleculeverse h1 {
+  margin-bottom: 20px;
+}
+
+.left_col {
+  position: relative;
+  z-index: -1;
+}
+
+.left_col .tshirt {
+  position: relative !important;
+  width: 500px !important;
+  height: 700px !important;
+}
+
+.right_col {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: -12px;
+}
+
+.right_col .right_col_img {
+  margin: 15px;
+  width: 220px !important;
+  height: 190px !important;
+}
+
+.right_col_img span {
+  width: 220px !important;
+  height: 190px !important;
+  position: relative !important;
+}
+
+.play_btn {
+  position: absolute !important;
+  width: 60px !important;
+  height: 60px !important;
+  top: 50% !important;
+  left: 43% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+.moleculeverse button {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    grid-template-columns: auto;
+  }
+
+  .left_col {
+    width: 989px;
+    margin: 0 auto;
+  }
+
+  .left_col .play_btn {
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  .right_col {
+    margin: 0 auto;
+    grid-template-columns: auto auto auto;
+  }
+
+  .right_col > div {
+    width: 310px;
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .left_col {
+    width: 500px;
+  }
+
+  .left_col .play_btn {
+    width: 70px !important;
+    height: 70px !important;
+  }
+
+  .right_col {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .left_col {
+    width: 600px;
+  }
+
+  .left_col .play_btn {
+    width: 50px;
+    height: 50px;
+  }
+
+  .right_col {
+    grid-template-columns: auto auto;
+  }
+
+  .right_col > div {
+    width: 287px;
+    height: 200px;
+  }
+
+  .right_col > div img {
+    width: 287px !important;
+    height: 200px !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .left_col {
+    width: 350px;
+  }
+
+  .left_col .tshirt {
+    width: 350px !important;
+    height: 500px !important;
+  }
+
+  .left_col .play_btn {
+    width: 40px !important;
+    height: 40px !important;
+    left: 50% !important;
+  }
+
+  .right_col {
+    grid-template-columns: auto;
+  }
+
+  .right_col > div {
+    width: 350px;
+    height: 220px;
+  }
+
+  .right_col > div img {
+    width: 350px !important;
+    height: 220px !important;
+  }
+}

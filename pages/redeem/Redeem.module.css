@@ -1,0 +1,116 @@
+.modal-window {
+  position: fixed;
+  background-color: rgba(95, 93, 93, 0.37);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  backdrop-filter: blur(4px);
+}
+.modal-window:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+.modal-window > div {
+  width: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2.3em 3.5em;
+  background: white;
+}
+.modal-window header {
+  font-weight: bold;
+}
+.modal-window h1 {
+  font-size: 140%;
+  margin: 0 0 15px;
+}
+
+.modal-close {
+  color: rgb(168, 165, 165);
+  line-height: 50px;
+  font-size: 130%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+}
+.modal-close:hover {
+  color: black;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.modal-window > div {
+  border-radius: 0.5rem;
+}
+
+.modal-window div:not(:last-of-type) {
+  margin-bottom: 15px;
+}
+
+.btn {
+  background-color: rgb(17, 12, 12);
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  padding: 1em 1.5em;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+.btn i {
+  padding-right: 0.3em;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+}
+
+.BtnContainer {
+  display: flex;
+  justify-content: end;
+  margin: 1.2em 0 0.4em 0;
+}
+.cancel_btn {
+  background-color: rgb(231, 226, 226);
+  border: none;
+  color: rgb(85, 84, 84);
+  font-weight: 600;
+  padding: 4px 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+.redeem_btn {
+  background-color: rgb(8, 7, 7);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  padding: 4px 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+
+.mb4 {
+  margin-bottom: 4em !important;
+}
